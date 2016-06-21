@@ -172,10 +172,9 @@ class WeiboMain(object):
     
 if __name__ == '__main__':
     startTime = time.time()
-    username = '1069757861@qq.com'
-    password = 's123456'
+    username = 'xxxxx@qq.com'#微博账户
+    password = 'xxxxx'#微博密码
     weiboLogin = WeiboLogin(username, password)
-#     weiboLogin = WeiboLogin('798102408@qq.com', 'fsrm113312..1')#邮箱（账号）、密码
     if weiboLogin.Login() != True:
         print "登录失败!"
     else:

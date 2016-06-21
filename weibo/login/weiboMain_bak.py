@@ -103,7 +103,7 @@ class WeiboMain(object):
                     print "发生异常  爬取失败"
             self.outputer.output_html()
 if __name__ == '__main__':
-    weiboLogin = weiboLogin.WeiboLogin('798102408@qq.com', 'fsrm113312..1')#邮箱（账号）、密码
+    weiboLogin = weiboLogin.WeiboLogin('xxxxx@qq.com', 'xxxx')#邮箱（账号）、密码
     if weiboLogin.Login() != True:
         print "登录失败!"
     else:
